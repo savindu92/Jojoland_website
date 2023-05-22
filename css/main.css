@@ -1,0 +1,85 @@
+/*
+  *google fonts:
+  font-family: 'Work Sans', Regular 800;
+  font-family: 'Open Sans', Regular 300;
+  font-family:'Merriweather', Regular 400;
+  font-family: 'Rubiki' Medium 500, 
+*/
+
+:root{
+  --text-color: #ffffff;
+  --titles-fonts: 'Oswald';
+  --text-font: 'Rubik';
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg_main.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: clamp(35px, 4vw, 60px);
+  position: relative;
+  top: 25px;
+  font-family: var(--titles-fonts), sans-serif;
+  text-align: center;
+  color:#000000;
+}
+
+h2 {
+  font-size: clamp(25px, 3vw, 40px);
+  position: relative;
+  top: 25px;
+  font-family: var(--titles-fonts), sans-serif;
+  color: var(--text-color);
+}
+
+h3 {
+  font-size: clamp(25px, 3vw, 30px);
+  font-family: var(--titles-fonts), sans-serif;
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+p {
+  font-size: clamp(12px, 2vw, 18px);
+  font-family: var(--text-font), sans-serif;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  color: var(--text-color);
+  line-height: 26px;
+}
+
+a {
+  font-size: clamp(12px, 2vw, 25px);
+  font-family: var(--text-font), sans-serif;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: #6b11cb;
+  border-radius: 2px;
+}
+
+.overflow{
+  overflow-x:auto;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 2px solid black;
+  padding: 10px;
+  
+}
+/*scripts*/
+
+.click-text{
+  color:#7b00ff;
+  font-size: clamp(15px, 2vw, 28px);
+}
